@@ -1,0 +1,60 @@
+element.style {
+}
+#reg_auth .header-last-btn {
+    margin-left: 10px;
+}
+.red {
+    color: #fff;
+    background-color: #e06149;
+    z-index: 1;
+}
+.white, .red {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: .65em 1.3em;
+    position: relative;
+    transition: all 700ms ease;
+}
+.btn {
+    cursor: pointer;
+    font-weight: 500;
+    overflow: hidden;
+    display: inline-block;
+    border: initial;
+    vertical-align: middle;
+}
+a {
+    color: #f26651;
+    text-decoration: none;
+    transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #232323;
+    overflow-anchor: auto;
+    scroll-behavior: smooth;
+    font-size-adjust: 100%;
+    -webkit-font-size-adjust: 100%;
+    -ms-font-size-adjust: 100%;
+    -webkit-text-size-adjust: none;
+}
