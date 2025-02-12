@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="CSS/main.css">
     </head>
     <body>
+        <script src="js/main.js"></script>
         <!-- <a href="reg" class="btn red header-last-btn">
             Регистрация
             <div class="btn__blobs">
@@ -98,8 +99,51 @@
                 </tr>
             </tfoot>
          </table>
+         <br>
+         <form action="" method="">
+            <label for="pers_number">Табельный номер</label>
+            <input type="number" 
+            placeholder="123456"
+            disabled
+            name="pers_number">
+         </form>
+         <br>
+         <form action="first_name" method="">
+            <label for="">Имя</label>
+            <input type="text" 
+            placeholder="Иван" 
+            style="color: rgb(28, 6, 125);"
+            name="first_name">
+         </form>
+         <br>
+         <form action="" method="">
+            <label for="last_name">Фамилия</label>
+            <input type="text" 
+            placeholder="Иванов"
+            style="color: rgb(28, 6, 125);"
+            name="last_name">
+         </form>
+         <br>
+         <form action="" method="">
+            <label for="surname_name">Отчество</label>
+            <input type="text" 
+            placeholder="Иванович"
+            style="color: rgb(28, 6, 125);"
+            name="surname_name">
+         </form>
+         <br>
+         <form action="" method="">
+            <label for="birth_date">Дата рождения</label>
+            <input type="date" name="birth_date"><br><br>
+            <input type="color"><br><br>
+            <label for="sex">Пол:</label><br>
+            <input type="radio" name="sex">
+            <label for="sex">Жен.</label>
+            <input type="radio" name="sex">
+            <label for="sex">Муж.</label><br><br>
+            <input type="file"><br><br>
 
-
-
+            <input type="submit" value="Применить">
+         </form>
     </body>
 </html>
